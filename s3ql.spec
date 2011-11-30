@@ -22,7 +22,7 @@ BuildRequires:      fuse-devel
 BuildRequires:      glibc-devel
 BuildRequires:      sqlite3-devel
 Requires:           fuse
-Requires:           python-pyliblzma >= 0.5.3
+Requires:           python-liblzma >= 0.5.3
 Requires:           python-cryptopp
 Requires:           python-apsw >= 3.7.0
 Requires:           python-paramiko
