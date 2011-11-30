@@ -20,6 +20,7 @@ BuildRequires:      gccxml
 BuildRequires:      libattr-devel
 BuildRequires:      fuse-devel
 BuildRequires:      glibc-devel
+BuildRequires:      sqlite3-devel
 Requires:           fuse
 Requires:           python-pyliblzma >= 0.5.3
 Requires:           python-cryptopp
