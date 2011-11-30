@@ -1,6 +1,6 @@
 Name:               s3ql
 Version:            1.7
-Release:            1
+Release:            2
 Summary:            Full-Featured File System for Online Data Storage
 Source:             http://s3ql.googlecode.com/files/s3ql-%{version}.tar.bz2
 URL:                http://code.google.com/p/s3ql/
