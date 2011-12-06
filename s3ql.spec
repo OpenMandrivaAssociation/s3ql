@@ -1,6 +1,6 @@
 Name:               s3ql
-Version:            1.7
-Release:            2
+Version:            1.8.1
+Release:            1
 Summary:            Full-Featured File System for Online Data Storage
 Source:             http://s3ql.googlecode.com/files/s3ql-%{version}.tar.bz2
 URL:                http://code.google.com/p/s3ql/
@@ -15,7 +15,7 @@ BuildRequires:      python-apsw >= 3.7.0
 BuildRequires:      python-unittest2
 BuildRequires:      python-paramiko
 BuildRequires:      python-argparse
-BuildRequires:      python-llfuse >= 0.31
+BuildRequires:      python-llfuse >= 0.37
 BuildRequires:      gccxml
 BuildRequires:      libattr-devel
 BuildRequires:      fuse-devel
