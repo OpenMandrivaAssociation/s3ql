@@ -1,5 +1,5 @@
 Name:               s3ql
-Version:            1.8.1
+Version:            1.9
 Release:            1
 Summary:            Full-Featured File System for Online Data Storage
 Source:             http://s3ql.googlecode.com/files/s3ql-%{version}.tar.bz2
@@ -50,7 +50,7 @@ for all its components.
 %setup -q
 
 %build
-%__python ./setup.py build
+PYTHONDONTWRITEBYTECODE= %__python ./setup.py build
 
 %check
 # we can't test those, they use fuse and require the fuse
