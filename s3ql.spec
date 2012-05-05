@@ -1,8 +1,8 @@
 Name:               s3ql
-Version:            1.10
+Version:            1.11.1
 Release:            1
 Summary:            Full-Featured File System for Online Data Storage
-Source0:            http://s3ql.googlecode.com/files/s3ql-%{version}.tar.bz2
+Source0:            http://s3ql.googlecode.com/files/%{name}-%{version}.tar.bz2
 URL:                http://code.google.com/p/s3ql/
 Group:              Networking/File transfer
 License:            GPLv3
@@ -22,11 +22,6 @@ BuildRequires:      fuse-devel
 BuildRequires:      glibc-devel
 BuildRequires:      sqlite3-devel
 Requires:           fuse
-#Requires:           python-liblzma >= 0.5.3
-#Requires:           python-cryptopp
-#Requires:           python-apsw >= 3.7.0
-#Requires:           python-paramiko
-#Requires:           python-llfuse >= 0.31
 
 %description
 S3QL is a file system that stores all its data online using storage services
