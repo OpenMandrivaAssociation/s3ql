@@ -90,3 +90,33 @@ find "%{buildroot}%{python_sitearch}" -type f -name '*.py' -exec %__sed -i -e '/
 %{_mandir}/man1/*.xz
 %{python_sitearch}/%{name}/*
 %{python_sitearch}/%{name}-*.egg-info
+
+
+%changelog
+* Sat May 05 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.11.1-1
++ Revision: 796590
+- update ti 1.11.1
+
+* Sat Feb 25 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.10-1
++ Revision: 780718
+- new version 1.10
+
+* Sun Jan 22 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.9-1
++ Revision: 764917
+- new version 1.9
+
+* Tue Dec 06 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.8.1-1
++ Revision: 738422
+- Update to 1.8.1
+
+* Wed Nov 30 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.7-2
++ Revision: 735709
+- release bump
+- requires fixed
+- BR fixed
+
+* Tue Nov 29 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.7-1
++ Revision: 735440
+- create package
+- create current
+
