@@ -1,2 +1,4 @@
+removed_sources:
+  s3ql-1.11.1.tar.bz2: d8c0b752ac8aa9376b43a01424a2afd325737162
 sources:
-  "s3ql-1.11.1.tar.bz2": d8c0b752ac8aa9376b43a01424a2afd325737162
+  s3ql-1.14.tar.bz2: d9e3373544ed436c3cff3202485c1fdc335d6fc2
