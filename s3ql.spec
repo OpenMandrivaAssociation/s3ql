@@ -1,6 +1,6 @@
 Name:               s3ql
 Version:            1.14
-Release:            1
+Release:            2
 Summary:            Full-Featured File System for Online Data Storage
 Source0:            http://s3ql.googlecode.com/files/%{name}-%{version}.tar.bz2
 URL:                http://code.google.com/p/s3ql/
