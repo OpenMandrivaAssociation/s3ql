@@ -3,7 +3,7 @@ Version:            1.14
 Release:            2
 Summary:            Full-Featured File System for Online Data Storage
 Source0:            http://s3ql.googlecode.com/files/%{name}-%{version}.tar.bz2
-URL:                http://code.google.com/p/s3ql/
+URL:                https://code.google.com/p/s3ql/
 Group:              Networking/File transfer
 License:            GPLv3
 %py_requires -d
